@@ -11,8 +11,8 @@ function Comment(props) {
         />
       </div>
       <div className="contentContainer">
-        <span className="nameText">홍길동</span>
-        <span className="commentText">제가 만든 첫 컴포넌트입니다.</span>
+        <span className="nameText">{props.name}</span>
+        <span className="commentText">{props.comment}</span>
       </div>
     </div>
   );
