@@ -4,7 +4,6 @@ import "./Notification.css";
 class Notification extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {};
   }
 
@@ -16,8 +15,8 @@ class Notification extends React.Component {
     console.log(`${this.props.id} componentDidUpdate() called.`);
   }
 
-  componentWillMount() {
-    console.log(`${this.props.id} componentWillMount() called.`);
+  componentWillUnmount() {
+    console.log(`${this.props.id} componentWillUnmount() called.`);
   }
 
   render() {

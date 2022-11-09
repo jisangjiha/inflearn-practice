@@ -26,6 +26,7 @@ class NotificationList extends React.Component {
     };
   }
 
+  // 생명주기 함수
   componentDidMount() {
     const { notifications } = this.state;
     timer = setInterval(() => {
@@ -52,7 +53,7 @@ class NotificationList extends React.Component {
             <Notification
               key={notification.id}
               id={notification.id}
-              message={Notification.message}
+              message={notification.message}
             />
           );
         })}
