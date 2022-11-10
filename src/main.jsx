@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AttendanceBook />
     <ConfirmButton />
-
+    <NotificationList />
     <CommentList />
     <Clock />
     <Library />

@@ -48,7 +48,7 @@ class NotificationList extends React.Component {
   render() {
     return (
       <div>
-        {this.state.notifications.map((Notification) => {
+        {this.state.notifications.map((notification) => {
           return (
             <Notification
               key={notification.id}
