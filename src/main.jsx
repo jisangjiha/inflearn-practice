@@ -10,10 +10,12 @@ import NotificationList from "./chapter06/NotificationList"; //재풀이 필요
 import ConfirmButton from "./chapter08/ConfirmButton";
 import AttendanceBook from "./chapter10/AttendanceBook";
 import Blocks from "./chapter15/Blocks";
+import DarkOrLight from "./chapter14/DarkOrLight";
 
 //setInterval(() => {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <DarkOrLight />
     <Blocks />
     <AttendanceBook />
     <ConfirmButton />
