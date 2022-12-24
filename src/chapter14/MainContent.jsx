@@ -1,14 +1,14 @@
 import { useContext } from "react";
 import ThemeContext from "./ThemeContext";
 
-function MainContent(props) {
+function MainContent() {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
-  requestAnimationFrame(
+  return (
     <div
       style={{
         width: "100vw",
-        height: "100vh",
+        height: "200px",
         padding: "1.5rem",
         backgroundColor: theme === "light" ? "white" : "black",
         color: theme === "light" ? "black" : "white",

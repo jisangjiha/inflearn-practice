@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import ThemeContext from "./ThemeContext";
-import MainContent from "./MainContext";
+import MainContent from "./MainContent";
 
-function DarkOrLight(props) {
+function DarkOrLight() {
   const [theme, setTheme] = useState("Light");
   const toggleTheme = useCallback(() => {
     if (theme === "light") {
