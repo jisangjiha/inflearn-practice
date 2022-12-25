@@ -4,7 +4,7 @@ import useCounter from "./useCounter";
 
 const MAX_CAPACITY = 10;
 
-function Accommodate(props) {
+function Accommodate() {
   const [isFull, setIsFull] = useState(false);
   const [count, increaseCount, decreaseCount] = useCounter(0);
 
@@ -28,7 +28,7 @@ function Accommodate(props) {
       <button onClick={decreaseCount} disabled={isFull}>
         퇴장
       </button>
-      {isFull && <p stylr={{ color: "red" }}>정원이 가득찼습니다.</p>}
+      {isFull && <p style={{ color: "red" }}>정원이 가득찼습니다.</p>}
     </div>
   );
 }
