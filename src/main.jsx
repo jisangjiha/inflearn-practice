@@ -9,6 +9,7 @@ import CommentList from "./chapter05/CommentList";
 import NotificationList from "./chapter06/NotificationList"; //재풀이 필요
 import Accommodate from "./chapter07/Accommodate";
 import ConfirmButton from "./chapter08/ConfirmButton";
+import LandingPage from "./chapter09/LandingPage";
 import AttendanceBook from "./chapter10/AttendanceBook";
 import DarkOrLight from "./chapter14/DarkOrLight"; //재풀이 필요
 import Blocks from "./chapter15/Blocks";
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Blocks />
     <DarkOrLight />
     <AttendanceBook />
+    <LandingPage />
     <ConfirmButton />
     <Accommodate />
     <NotificationList />
