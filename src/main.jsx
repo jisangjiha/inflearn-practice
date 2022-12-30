@@ -12,6 +12,7 @@ import ConfirmButton from "./chapter08/ConfirmButton";
 import LandingPage from "./chapter09/LandingPage";
 import AttendanceBook from "./chapter10/AttendanceBook";
 import SignUp from "./chapter11/SignUp";
+import Calculator from "./chapter12/Calculator";
 import DarkOrLight from "./chapter14/DarkOrLight"; //재풀이 필요
 import Blocks from "./chapter15/Blocks";
 
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Blocks />
     <DarkOrLight />
+    <Calculator />
     <SignUp />
     <AttendanceBook />
     <LandingPage />
